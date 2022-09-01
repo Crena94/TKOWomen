@@ -42,12 +42,12 @@ st.title("Choose your Fighter!")
 
 from PIL import Image
 
-image1 = Image.open("1/Activities/04-Stu_Certificate_dApp/Solved/fighter_1.jpg")
-image2 = Image.open("1/Activities/04-Stu_Certificate_dApp/Solved/fighter_2.jpg")
-image3 = Image.open("1/Activities/04-Stu_Certificate_dApp/Solved/fighter_3.jpg")
-image4 = Image.open("1/Activities/04-Stu_Certificate_dApp/Solved/fighter_4.jpg")
-image5 = Image.open("1/Activities/04-Stu_Certificate_dApp/Solved/fighter_5.jpg")
-image6 = Image.open("1/Activities/04-Stu_Certificate_dApp/Solved/fighter_6.jpg")
+image1 = Image.open("fighter_1.jpg")
+image2 = Image.open("fighter_2.jpg")
+image3 = Image.open("fighter_3.jpg")
+image4 = Image.open("fighter_4.jpg")
+image5 = Image.open("fighter_5.jpg")
+image6 = Image.open("fighter_6.jpg")
 
 st.image([image1,image2,image3,image4,image5,image6], caption = ["Fighter 1", "Fighter 2", "Fighter 3", "Fighter 4", "Fighter 5", "Fighter 6"], width = 100)
 
